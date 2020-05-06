@@ -1,0 +1,61 @@
+#header {
+    top: 0;
+    position: sticky;
+    width: 100%;
+    height: auto;
+}
+
+#header .parent-container {
+    background-color: #303036;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* #header .parent-container > div {
+    flex: 1;
+} */
+
+#header .parent-container img {
+    padding-left: 70px;
+    height: 80px;
+}
+
+#header .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header .navigation li {
+    display: flex;
+}
+
+#header .navigation a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    background-color: 303036;
+}
+
+#header .navigation a:hover {
+    color: #fff !important;
+    background: #6a67ce;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+#header .navigation a.active {
+    background-color: #6a67ce;
+    color: white;
+}
