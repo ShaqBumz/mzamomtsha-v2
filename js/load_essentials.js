@@ -1,0 +1,8 @@
+var content = {
+    "header": "<div class='parent-container'> <div><img src='images/logo.png' alt='School Badge'/></div><div> <h2> Mzamomtsha Primary School</h2> </div><div> <input type='text' placeholder='Search...' name='search'> <button type='submit'><i class='fa fa-search'></i></button> </div><div> <ul class='navigation'> <li><a href='/'>HOME</a></li><li><a href='/about.html'>ABOUT</a></li><li><a class='active' href='/events.html'>EVENTS</a></li></ul> </div></div>",
+    "footer": "<h2>Mzamomtsha</h2> <div class='footer-container'> <div> <p class='heading'><b><u>Contact Details</u></b></p><p><i class='fa fa-phone'></i> 0214363763</p><p><i class='fa fa-envelope-o'></i> Mzamomtsha@outlook.com</p></div><div> <p class='heading'><b><u>Social Media</u></b></p><a href='#'><i class='fa fa-facebook'></i></a> <a href='#'><i class='fa fa-twitter'></i></a> <a href='#'><i class='fa fa-instagram'></i></a> </div><div> <p class='heading'><b><u>Quick Links</u></b></p><a href='/#donate'>Donate</a>&nbsp; <a href='/about.html'>About</a>&nbsp; <a href='/#'>Gallery</a> </div><div> <p class='heading'><b><u>Contact Us</u></b></p><form action='mailto:you@yourwebsite.com'> <input id='email' type='text' placeholder='Email address' name='email'/> <br><br><textarea id='message' rows='8' cols='22' placeholder='Message'></textarea> <br><br><button type='submit' class='button button1'>Send</button> </form> </div></div><h5>Copyright © Mzamomtsha Primary School 2020</h5>"
+};
+
+for (var key in content) {
+    document.getElementById(key).innerHTML = content[key];
+}
