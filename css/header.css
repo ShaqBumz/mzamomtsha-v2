@@ -3,10 +3,13 @@
     position: sticky;
     width: 100%;
     height: auto;
+    background-color: #303036;
 }
 
 #header .parent-container {
-    background-color: #303036;
+    margin: 0 auto;
+    display: block;
+    max-width: 1200px;
     color: white;
     padding: 10px;
     display: flex;
