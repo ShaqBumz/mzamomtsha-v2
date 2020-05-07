@@ -34,6 +34,11 @@ footer {
     margin-right: 20px;
 }
 
+.title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
 /*.a1, .b1, .c1, .d1, .e1, .f1
 {
   padding-bottom: 10px;
@@ -42,25 +47,26 @@ footer {
 .contact-details {
     display: flex;
     flex-flow: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     padding-left: 20px;
 }
-.a1 {
-    font-size: 16pt;
+.a1 h3 {
+    margin: 0;
+    font-size: 1em;
 }
 .d1 {
-    position: relative;
+    /* position: relative; */
     left: 120px;
     bottom: 33px;
 }
 .b1 {
     font-size: 18px;
-    position: relative;
+    /* position: relative; */
     left: 70px;
 }
 .e1 {
     font-size: 18px;
-    position: relative;
+    /* position: relative; */
     bottom: 25px;
     left: 70px;
 }
@@ -70,10 +76,10 @@ footer {
     justify-content: space-around;
 }
 .quick {
-    position: relative;
+    /* position: relative; */
     bottom: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
@@ -86,23 +92,29 @@ footer {
     color: maroon;
 }
 
+.bb2 {
+    font-size: 0;
+}
 .bb2 a {
     display: flex;
     flex-direction: column;
     color: #d3d3d3;
     padding: 5px;
     margin: 5px;
+    text-decoration: none;
+    font-size: 1rem;
 }
 
 .bb2 a:hover {
-    color: maroon;
+    color: white;
+    text-decoration: underline;
 }
 
 .parent-container .quick p {
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 .parent-container .contact-us p {
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 .contact-us .box {
@@ -135,7 +147,7 @@ footer {
     background: black;
     font-size: 20px;
     color: white;
-    position: relative;
+    /* position: relative; */
     bottom: 0px;
     text-align: center;
     width: 100%;

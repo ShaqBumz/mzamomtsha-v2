@@ -16,7 +16,7 @@
     padding: 30px;
     margin: 20px;
     border: 1px solid black;
-    box-shadow: 5px 5px #888888,
-        inset 0 5px 0 #6a67ce;
-    background-color: #fff9;
+    box-shadow: 5px 10px #888888;
+    background-color: #00008b;
+    color: white;
 }
