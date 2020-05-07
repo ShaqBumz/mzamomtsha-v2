@@ -2,15 +2,19 @@
 	box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
 	margin: 0;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	width: auto;
-	background-color: wheat;
 }
 
-h2{
-    color: white;
+ul {
+	list-style: none;
+}
+
+h2 {
+	color: white;
 }
 
 input {
