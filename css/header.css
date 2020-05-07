@@ -1,63 +1,82 @@
-#header {
-    top: 0;
-    position: sticky;
+header {
     width: 100%;
     height: auto;
-    background-color: #303036;
+    border-style: inset;
+    background-color: steelblue;
+    /* opacity: 0.3; */
+    /* border-width: large; */
+    /* border-color: hsl(0, 100%, 50%); red */
+    /* padding: 20px; */
+    position: sticky;
+    top: 0;
 }
 
-#header .parent-container {
-    margin: 0 auto;
-    display: block;
-    max-width: 1200px;
-    color: white;
-    padding: 10px;
+.header-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-/* #header .parent-container > div {
+.header-container img {
+    flex: 0;
+    margin-left: 2px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-shadow: 0 0 3px white, 0 0 5px #0000ff;
+}
+
+.header-container h1 {
+    /* margin-right: 100px; */
     flex: 1;
-} */
-
-#header .parent-container img {
-    height: 80px;
 }
 
-#header .navigation {
+.header-container input {
+    flex: 1;
+    height: 25px;
+    border: 2px solid none;
+    border-radius: 5px;
+}
+
+.header-container button {
+    flex: 1;
+    height: 25px;
+    width: 25px;
+    border: 2px solid none;
+    border-radius: 5px;
+}
+
+.header-container ul {
+    list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    flex-direction: row;
 }
 
-#header .navigation li {
-    display: flex;
+.header-container li {
+    flex: 0;
+    padding: 10px;
+    margin-right: 25px;
+    font-size: large;
 }
 
-#header .navigation a {
-    display: block;
-    color: white;
+.header-container a {
     text-decoration: none;
+    color: aliceblue;
     padding: 8px;
-    background-color: 303036;
+    text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
-#header .navigation a:hover {
-    color: #fff !important;
-    background: #6a67ce;
+.header-container a:hover {
+    color: #0000ff !important;
+
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -ms-transition: 0.5s all;
-}
-
-#header .navigation a.active {
-    background-color: #6a67ce;
-    color: white;
 }
