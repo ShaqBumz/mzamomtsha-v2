@@ -15,6 +15,7 @@
     background-image: url('../images/school_about.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     color: white;
 
     text-shadow: 0 0 10px #000;
