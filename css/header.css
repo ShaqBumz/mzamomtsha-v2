@@ -2,7 +2,7 @@
     --logo-width: 110px;
 }
 
-header {
+#header {
     width: 100%;
     height: auto;
     border: none;
@@ -13,7 +13,7 @@ header {
     z-index: 10;
 }
 
-header a {
+#header a {
     text-decoration: none;
     color: black;
 }
@@ -54,6 +54,7 @@ header a {
 }
 
 .header-nav h2 {
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     /* font-style: italic; */
     font-weight: bold;
