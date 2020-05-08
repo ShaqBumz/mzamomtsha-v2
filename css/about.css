@@ -46,3 +46,14 @@
 #content .content-title {
     text-align: center;
 }
+
+#content .content-wrapper .faq-item {
+    padding: 8px 20px;
+}
+#content .content-wrapper .faq-item .question,
+#content .content-wrapper .faq-item .answer {
+    margin: 0;
+}
+#content .content-wrapper .faq-item .question {
+    font-weight: bold;
+}
