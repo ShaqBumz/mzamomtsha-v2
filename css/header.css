@@ -107,14 +107,10 @@
     font-size: large;
 }
 
-.header-nav .navigation a:hover {
-    background-color: #0000ff;
+#header .header-nav .navigation a:hover {
+    background-color: #33f;
     box-shadow: -5px 0 5px -5px #0007,5px 0 5px -5px #0007;
     color: white;
-}
-
-.header-container a:hover {
-    color: #0000ff !important;
 
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
