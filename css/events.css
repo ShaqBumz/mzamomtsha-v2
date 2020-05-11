@@ -1,4 +1,4 @@
-#head2 {
+#main-heading {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,12 +6,12 @@
     font-weight: bolder;
 }
 
-.events-container {
+#events-wrapper {
     display: flex;
     flex-wrap: wrap;
 }
 
-.events-container > div {
+.content{
     flex: 1;
     padding: 30px;
     margin: 20px;
@@ -21,7 +21,7 @@
     color: white;
 }
 
-.events-container > div img {
+#events-wrapper > .content img {
     margin-left: -30px;
     margin-top: -30px;
     object-fit: cover;
