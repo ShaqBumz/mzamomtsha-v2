@@ -108,7 +108,7 @@
 }
 
 #header .header-nav .navigation a:hover {
-    background-color: #33f;
+    background-color: steelblue;
     box-shadow: -5px 0 5px -5px #0007,5px 0 5px -5px #0007;
     color: white;
 
